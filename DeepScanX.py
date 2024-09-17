@@ -15,7 +15,7 @@ def run_command(command):
 def load_config(config_file):
     """Load JSON configuration file."""
     with open(config_file, 'r') as file:
-        return json.load(file)
+        return json.load(file)a
 
 
 def main():
